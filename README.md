@@ -1,6 +1,6 @@
 # Colosseum Project - Arena
 
-Microservice application part of the Colosseum Project and responsible for scheduling and engaging gladiators to battle.
+Microservice application part of the Colosseum Project and responsible for engaging gladiators to battle.
 
 ## License
 
