@@ -1,8 +1,8 @@
 # Contributing
 
-_Note: Theses instructions are for linux base systems. Please, adapt them if you are using another operating system._
-
 ## Contributing Code
+
+_Note: Theses instructions are for linux base systems. Please, adapt them if you are using another operating system._
 
 1. Clone the repository to your local disk
 
