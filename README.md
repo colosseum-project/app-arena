@@ -2,8 +2,6 @@
 
 Microservice application part of the Colosseum Project and responsible for engaging gladiators to battle.
 
-**Table of content**
-
 - [Colosseum Project - Arena](#colosseum-project---arena)
   - [License](#license)
   - [Contributing](#contributing)
