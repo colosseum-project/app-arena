@@ -1,5 +1,10 @@
 # Contributing
 
+- [Contributing](#contributing)
+  - [Contributing Code](#contributing-code)
+
+---
+
 ## Contributing Code
 
 _Note: Theses instructions are for linux base systems. Please, adapt them if you are using another operating system._
