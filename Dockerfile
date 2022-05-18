@@ -36,5 +36,5 @@ RUN adduser \
 USER arena
 
 # run production-ready application :)
-EXPOSE 8080
+EXPOSE 8082
 ENTRYPOINT ["arena"]
