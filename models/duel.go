@@ -115,7 +115,7 @@ func (dt *duelTurn) toString() string {
 			dt.AttackerName, dt.Damage, dt.DefenderName, dt.DefenderRemainingHP)
 		if dt.DefenderDead {
 			str += fmt.Sprintf(
-				" %s died.",
+				" %s has been defeated.",
 				dt.DefenderName)
 		}
 	}
