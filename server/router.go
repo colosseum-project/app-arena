@@ -1,9 +1,10 @@
 package server
 
 import (
-	"arena/controllers"
 	"os"
 	"strings"
+
+	"github.com/colosseum-project/app-arena/controllers"
 
 	"github.com/gin-gonic/gin"
 )

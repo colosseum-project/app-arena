@@ -1,8 +1,8 @@
 package main
 
 import (
-	"arena/server"
-	"arena/utils"
+	"github.com/colosseum-project/app-arena/server"
+	"github.com/colosseum-project/app-arena/utils"
 )
 
 func main() {

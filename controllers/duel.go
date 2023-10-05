@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"arena/models"
 	"fmt"
 	"net/http"
+
+	"github.com/colosseum-project/app-arena/models"
 
 	"github.com/gin-gonic/gin"
 )

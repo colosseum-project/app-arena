@@ -1,9 +1,10 @@
 package models
 
 import (
-	"arena/utils"
 	"errors"
 	"fmt"
+
+	"github.com/colosseum-project/app-arena/utils"
 )
 
 type Duel struct {

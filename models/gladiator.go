@@ -1,7 +1,7 @@
 package models
 
 import (
-	"arena/utils"
+	"github.com/colosseum-project/app-arena/utils"
 )
 
 type damage struct {
