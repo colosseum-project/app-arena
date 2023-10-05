@@ -7,6 +7,11 @@
             "label": "Build Docker image",
             "type": "shell",
             "command": "docker build -t arena ."
+        },
+        {
+            "label": "Build Docker image (amd64-tiny)",
+            "type": "shell",
+            "command": "docker build -f Dockerfile.amd64-tiny -t arena ."
         }
     ]
 }
