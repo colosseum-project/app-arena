@@ -24,5 +24,8 @@ Images can be built using Docker and the provided Dockerfile.
 To build an image, run:
 
 ```sh
-docker build -t arena .
+docker build -t colosseum-project/arena .
+
+# or build minimal x86-64 container image
+docker build -f Dockerfile.amd64-tiny -t colosseum-project/arena:amd64-tiny .
 ```
