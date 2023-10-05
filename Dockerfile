@@ -2,7 +2,7 @@
 # build application
 #
 
-FROM golang:1.18-bullseye as build
+FROM golang:1.21.1-bookworm as build
 
 WORKDIR /build
 
@@ -20,7 +20,7 @@ RUN go build -v -o /build/arena
 # deploy application
 #
 
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 ENV GIN_MODE=release
 
 # copy freshly built application binary
@@ -33,8 +33,8 @@ RUN adduser \
     --gecos "" \
     --shell /bin/sh \
     arena
-USER arena
 
 # run production-ready application :)
+USER arena
 EXPOSE 8082
 ENTRYPOINT ["arena"]
