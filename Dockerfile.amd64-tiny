@@ -1,0 +1,31 @@
+#
+# build application
+#
+
+FROM golang:1.21.1 as build
+
+WORKDIR /build
+
+# download required Go packages
+COPY go.mod go.sum ./
+RUN go mod download && go mod verify
+
+# copy application files
+COPY . .
+
+# build Go application
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -o /build/arena
+
+#
+# deploy application
+#
+
+FROM scratch
+ENV GIN_MODE=release
+
+# copy freshly built application binary
+COPY --from=build /build/arena /usr/local/bin/arena
+
+# run production-ready application :)
+EXPOSE 8082
+ENTRYPOINT ["arena"]
