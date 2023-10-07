@@ -1,0 +1,5 @@
+{
+  // See https://code.visualstudio.com/docs/getstarted/settings
+  // for the documentation about the settings.json format
+  "files.eol": "\n",
+}
