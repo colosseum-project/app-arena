@@ -2,7 +2,7 @@
 # build application
 #
 
-FROM golang:1.21.1-bookworm as build
+FROM golang:1.21.2-bookworm as build
 
 WORKDIR /build
 
