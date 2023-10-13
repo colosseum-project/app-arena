@@ -6,12 +6,12 @@
         {
             "label": "Build Docker image",
             "type": "shell",
-            "command": "docker build -t colosseum-project/arena ."
+            "command": "docker build -t arena ."
         },
         {
             "label": "Build Docker image (amd64-tiny)",
             "type": "shell",
-            "command": "docker build -f Dockerfile.amd64-tiny -t colosseum-project/arena:amd64-tiny ."
+            "command": "docker build -f Dockerfile.amd64-tiny -t arena:amd64-tiny ."
         }
     ]
 }
